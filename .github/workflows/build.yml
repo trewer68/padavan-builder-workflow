@@ -89,7 +89,7 @@ jobs:
         fi
         
     - name: Install GitHub CLI
-      run: sudo apt update && sudo apt install -y gh
+      run: apt update && apt install -y gh
   
     - name: Create Release
       id: create_release
